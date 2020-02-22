@@ -46,6 +46,11 @@ public class InorderTraversal_94 {
         return result;
     }
 
+    /**
+     * 时间复杂度O(n)
+     * @param root
+     * @return
+     */
     public List<Integer> inorderTraversalLoop(TreeNode root) {
         TreeNode current = root;
         Stack<TreeNode> stack = new Stack<>();
