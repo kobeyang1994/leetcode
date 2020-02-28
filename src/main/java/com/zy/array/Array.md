@@ -44,3 +44,17 @@
     - 数组效率高（知道数据大小的情况下）（底层开发数组的效率更高）
     - 多维情况下，数组更加直观
 
+数组
+
+| -题目名称-                                                   |
+| ------------------------------------------------------------ |
+| [Move Zero](https://leetcode-cn.com/problems/move-zeroes/)   |
+| [climbing-stairs](https://leetcode.com/problems/climbing-stairs/) |
+| [3sum](https://leetcode-cn.com/problems/3sum/ ](https://leetcode-cn.com/problems/3sum/)) |
+| [container-with-most-water](https://leetcode-cn.com/problems/container-with-most-water/) |
+| [two-sum]( https://leetcode-cn.com/problems/two-sum/](https://leetcode-cn.com/problems/two-sum/)) |
+| [数组去重复](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) |
+| [rotate-array](https://leetcode-cn.com/problems/rotate-array/) |
+| [merge-sorted-array](https://leetcode-cn.com/problems/merge-sorted-array/) |
+| [plus-one](https://leetcode-cn.com/problems/plus-one/)       |
+

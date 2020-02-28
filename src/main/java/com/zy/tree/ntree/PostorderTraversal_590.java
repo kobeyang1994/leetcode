@@ -30,7 +30,6 @@ import java.util.Stack;
 public class PostorderTraversal_590 {
     LinkedList<Integer> result = new LinkedList<>();
 
-
     /**
      * 二叉树的深度优先搜索 都是借助于一个Stack 来辅助实现的
      * @param root

@@ -9,9 +9,13 @@
 
 二叉树的基本实现：
 
+**树的概念**：
 
+- 高度（Height）
+- 深度（Depth）
+- 层 （Level）
 
-
+![img](https://static001.geekbang.org/resource/image/50/b4/50f89510ad1f7570791dd12f4e9adeb4.jpg)![img](https://static001.geekbang.org/resource/image/50/b4/50f89510ad1f7570791dd12f4e9adeb4.jpg)
 
 #### 2.二叉树
 
@@ -36,6 +40,7 @@ public class TreeNode {
 **二叉树的种类：**
 
 - 完全二叉树
+  - 堆
 - 满二叉树
 - 查找二叉树
 - 平衡查找二叉树
@@ -50,3 +55,4 @@ public class TreeNode {
   - 后序遍历
 - 层级遍历
 
+![img](https://static001.geekbang.org/resource/image/ab/16/ab103822e75b5b15c615b68560cb2416.jpg)

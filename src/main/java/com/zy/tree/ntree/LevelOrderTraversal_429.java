@@ -1,5 +1,7 @@
 package com.zy.tree.ntree;
 
+import org.junit.Test;
+
 import java.util.*;
 
 /**
@@ -82,11 +84,20 @@ public class LevelOrderTraversal_429 {
             List<Node> currentLevelNode = new LinkedList<>();
             List<Integer> preLevelVal = new LinkedList<>();
             for (Node current : preLevelNode) {
-                currentLevelNode.addAll(current.children);
+                if(current.children != null ){
+                    currentLevelNode.addAll(current.children);
+                }
                 preLevelVal.add(current.val);
             }
             result.add(preLevelVal);
-            preLevelNode = currentLevelNode;
+            preLevelNode = null;
+            for(Node current :currentLevelNode){
+                if(current != null){
+                    preLevelNode = currentLevelNode;
+                    break;
+                }
+            }
+
         }
         return result;
 

@@ -1,5 +1,7 @@
 package com.zy.tree.binarytree;
 
+import org.junit.Test;
+
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Stack;
@@ -13,6 +15,7 @@ public class PeorderTraversal_144 {
 
 
     private List<Integer> result = new LinkedList<>();
+
 
     /**
      * recursion
@@ -53,6 +56,22 @@ public class PeorderTraversal_144 {
         }
 
         return result;
+    }
+
+    public List<Integer> preorderTraversalLoop2(TreeNode node) {
+        List<Integer> list = new LinkedList<>();
+        Stack<TreeNode> rights = new Stack<>();
+        while(node != null) {
+            list.add(node.val);
+            if (node.right != null) {
+                rights.push(node.right);
+            }
+            node = node.left;
+            if (node == null && !rights.isEmpty()) {
+                node = rights.pop();
+            }
+        }
+        return list;
     }
 
     public class TreeNode {
